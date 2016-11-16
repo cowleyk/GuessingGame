@@ -1,9 +1,9 @@
 'use strict';
 
-var $input = $('#input').val();
 
 
 $('#button').on('click', function(){
+  var $input = $('#input').val();
 
   if($input > randomNumber){
     alert('Too High!');
